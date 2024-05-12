@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\Driver -I ..\Libraries\inc -I ..\User -I ..\System\delay -I ..\System\sys -I ..\System\usart
+-IE:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\output\gpio.o --omf_browse ..\output\gpio.crf --depend ..\output\gpio.d "..\Driver\gpio.c"

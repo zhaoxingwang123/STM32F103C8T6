@@ -1,0 +1,16 @@
+..\output\myflash.o: ..\Driver\MyFlash.c
+..\output\myflash.o: ..\Driver\Myflash.h
+..\output\myflash.o: ..\User\stm32f10x.h
+..\output\myflash.o: ..\CMSIS\core_cm3.h
+..\output\myflash.o: E:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\myflash.o: ..\User\system_stm32f10x.h
+..\output\myflash.o: ..\User\stm32f10x_conf.h
+..\output\myflash.o: ..\Libraries\inc\stm32f10x_dbgmcu.h
+..\output\myflash.o: ..\User\stm32f10x.h
+..\output\myflash.o: ..\Libraries\inc\stm32f10x_flash.h
+..\output\myflash.o: ..\Libraries\inc\stm32f10x_gpio.h
+..\output\myflash.o: ..\Libraries\inc\stm32f10x_rcc.h
+..\output\myflash.o: ..\Libraries\inc\stm32f10x_tim.h
+..\output\myflash.o: ..\Libraries\inc\stm32f10x_usart.h
+..\output\myflash.o: ..\Libraries\inc\misc.h
+..\output\myflash.o: ..\System\sys\sys.h
